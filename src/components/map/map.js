@@ -9,7 +9,6 @@ export const Map = ({ linjat, onHover, onLeave }) => {
       layer.bindPopup(feature.properties.name);
       if (feature.geometry.type === 'LineString') {
         layer.on('mouseover', function (e) {
-          console.log(feature);
           onHover(feature.properties.name);
         });
         layer.on('mouseout', function (e) {
