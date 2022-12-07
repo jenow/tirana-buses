@@ -1,4 +1,4 @@
-import '../../index.css';
+import './map.css';
 import 'leaflet/dist/leaflet.css';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import { GeoJSON } from 'react-leaflet';
