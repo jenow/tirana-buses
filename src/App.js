@@ -44,10 +44,26 @@ function App() {
     setLinjat(newLinjat);
   }
 
+  const onCheckAll = () => {
+    const newLinjat = linjat.map((linja) => {
+      linja.show = true;
+      return linja;
+    });
+    setLinjat(newLinjat);
+  }
+
+  const onUncheckAll = () => {
+    const newLinjat = linjat.map((linja) => {
+      linja.show = false;
+      return linja;
+    });
+    setLinjat(newLinjat);
+  }
+
   return (
     <div className="App">
       <Map linjat={linjat} />
-      <Legend linjat={linjat} onChange={onChange} />
+      <Legend linjat={linjat} onChange={onChange} onCheckAll={onCheckAll} onUncheckAll={onUncheckAll} />
     </div>
   );
 }

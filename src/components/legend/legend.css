@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+.legend-header {
+  display: flex;
+}
+
 .legend-item {
   display: flex;
   align-items: center;
