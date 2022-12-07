@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './App.css';
 import { Legend } from './components/legend/legend';
 import { Map } from './components/map/map';
@@ -14,27 +15,39 @@ L.Icon.Default.mergeOptions({
 });
 
 function App() {
-  const linjat = [
-    { name: 'Linja 1', linja: linja1, color: 'black' },
-    { name: 'Linja 2', linja: linja2, color: 'darkblue' },
-    { name: 'Linja 3', linja: linja3, color: 'darkgreen' },
-    { name: 'Linja 4', linja: linja4, color: 'darkcyan' },
-    { name: 'Linja 5', linja: linja5, color: 'darkred' },
-    { name: 'Linja 6', linja: linja6, color: 'darkmagenta' },
-    { name: 'Linja 7', linja: linja7, color: 'yellow' },
-    { name: 'Linja 8', linja: linja8, color: 'gray' },
-    { name: 'Linja 10', linja: linja10, color: 'darkgrey' },
-    { name: 'Linja 11', linja: linja11, color: 'blue' },
-    { name: 'Linja 12', linja: linja12, color: 'green' },
-    { name: 'Linja 13', linja: linja13, color: 'cyan' },
-    { name: 'Linja 14', linja: linja14, color: 'red' },
-    { name: 'Linja 15', linja: linja15, color: 'magenta' }
-  ];
+  const [ linjat, setLinjat ] = useState([
+    { name: 'Linja 1', linja: linja1, color: 'black', show: true },
+    { name: 'Linja 2', linja: linja2, color: 'darkblue', show: true },
+    { name: 'Linja 3', linja: linja3, color: 'darkgreen', show: true },
+    { name: 'Linja 4', linja: linja4, color: 'darkcyan', show: true },
+    { name: 'Linja 5', linja: linja5, color: 'darkred', show: true },
+    { name: 'Linja 6', linja: linja6, color: 'darkmagenta', show: true },
+    { name: 'Linja 7', linja: linja7, color: 'yellow', show: true },
+    { name: 'Linja 8', linja: linja8, color: 'gray', show: true },
+    { name: 'Linja 9', linja: linja9, color: 'lightgrey', show: true },
+    { name: 'Linja 10', linja: linja10, color: 'darkgrey', show: true },
+    { name: 'Linja 11', linja: linja11, color: 'blue', show: true },
+    { name: 'Linja 12', linja: linja12, color: 'green', show: true },
+    { name: 'Linja 13', linja: linja13, color: 'cyan', show: true },
+    { name: 'Linja 14', linja: linja14, color: 'red', show: true },
+    { name: 'Linja 15', linja: linja15, color: 'magenta', show: true }
+  ]);
+
+  const onChange = (name, value) => {
+    const newLinjat = linjat.map((linja) => {
+      if (linja.name === name) {
+        linja.show = value;
+      }
+      return linja;
+    });
+    console.log(newLinjat);
+    setLinjat(newLinjat);
+  }
 
   return (
     <div className="App">
       <Map linjat={linjat} />
-      <Legend linjat={linjat} />
+      <Legend linjat={linjat} onChange={onChange} />
     </div>
   );
 }

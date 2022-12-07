@@ -3,7 +3,7 @@ import 'leaflet/dist/leaflet.css';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import { GeoJSON } from 'react-leaflet';
 
-export const Map = ({linjat}) => {
+export const Map = ({ linjat }) => {
   const onStationClicked = (feature, layer) => {
     if (feature.properties) {
       layer.bindPopup(feature.properties.name);
@@ -28,6 +28,7 @@ export const Map = ({linjat}) => {
       {
         linjat.map((linja) => {
           return (
+            linja.show &&
             <GeoJSON key={linja.name} data={linja.linja} style={{ color: linja.color }} onEachFeature={onStationClicked} />
           );
         })

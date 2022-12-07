@@ -22,6 +22,7 @@ export const linja5 = _linja5;
 export const linja6 = _linja6;
 export const linja7 = _linja7;
 export const linja8 = _linja8;
+export const linja9 = _linja9;
 export const linja10 = _linja10;
 export const linja11 = _linja11;
 export const linja12 = _linja12;

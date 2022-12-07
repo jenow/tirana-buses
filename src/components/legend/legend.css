@@ -15,6 +15,10 @@
   margin-bottom: 5px;
 }
 
+.legend-item-checkbox {
+  margin-right: 5px;
+}
+
 .legend-item-color {
   width: 20px;
   height: 20px;
