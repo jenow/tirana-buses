@@ -1,6 +1,7 @@
 import './App.css';
 import { Legend } from './components/legend/legend';
 import { Map } from './components/map/map';
+import { linja8, linja10, linja11 } from './json';
 
 import L from 'leaflet';
 
@@ -13,10 +14,16 @@ L.Icon.Default.mergeOptions({
 });
 
 function App() {
+  const linjat = [
+    { name: 'Linja 8', linja: linja8, color: 'red' },
+    { name: 'Linja 10',  linja: linja10, color: 'blue' },
+    { name: 'Linja 11', linja: linja11, color: 'green' }
+  ];
+
   return (
     <div className="App">
-      <Map />
-      <Legend />
+      <Map linjat={linjat} />
+      <Legend linjat={linjat} />
     </div>
   );
 }

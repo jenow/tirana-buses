@@ -2,20 +2,13 @@ import '../../index.css';
 import 'leaflet/dist/leaflet.css';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import { GeoJSON } from 'react-leaflet';
-import { linja8, linja10, linja11 } from '../../json';
 
-export const Map = () => {
+export const Map = ({linjat}) => {
   const onStationClicked = (feature, layer) => {
     if (feature.properties) {
       layer.bindPopup(feature.properties.name);
     }
   };
-
-  const linjat = [
-    { linja: linja8, color: 'red' },
-    { linja: linja10, color: 'blue' },
-    { linja: linja11, color: 'green' }
-  ];
 
   return (
     <MapContainer
