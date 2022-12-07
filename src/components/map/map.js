@@ -3,10 +3,19 @@ import 'leaflet/dist/leaflet.css';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import { GeoJSON } from 'react-leaflet';
 
-export const Map = ({ linjat }) => {
+export const Map = ({ linjat, onHover, onLeave }) => {
   const onStationClicked = (feature, layer) => {
     if (feature.properties) {
       layer.bindPopup(feature.properties.name);
+      if (feature.geometry.type === 'LineString') {
+        layer.on('mouseover', function (e) {
+          console.log(feature);
+          onHover(feature.properties.name);
+        });
+        layer.on('mouseout', function (e) {
+          onLeave();
+        });
+      }
     }
   };
 

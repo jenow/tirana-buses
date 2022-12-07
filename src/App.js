@@ -15,12 +15,12 @@ L.Icon.Default.mergeOptions({
 });
 
 function App() {
-  const [ linjat, setLinjat ] = useState([
+  const [linjat, setLinjat] = useState([
     { name: 'Linja 1', linja: linja1, color: 'black', show: true },
     { name: 'Linja 2', linja: linja2, color: 'darkblue', show: true },
     { name: 'Linja 3', linja: linja3, color: 'darkgreen', show: true },
     { name: 'Linja 4', linja: linja4, color: 'darkcyan', show: true },
-    { name: 'Linja 5', linja: linja5, color: 'darkred', show: true },
+    { name: 'Linja 5/A', linja: linja5, color: 'darkred', show: true },
     { name: 'Linja 6', linja: linja6, color: 'darkmagenta', show: true },
     { name: 'Linja 7', linja: linja7, color: 'yellow', show: true },
     { name: 'Linja 8', linja: linja8, color: 'gray', show: true },
@@ -32,6 +32,7 @@ function App() {
     { name: 'Linja 14', linja: linja14, color: 'red', show: true },
     { name: 'Linja 15', linja: linja15, color: 'magenta', show: true }
   ]);
+  let linjatCopy = JSON.parse(JSON.stringify(linjat));
 
   const onChange = (name, value) => {
     const newLinjat = linjat.map((linja) => {
@@ -40,8 +41,8 @@ function App() {
       }
       return linja;
     });
-    console.log(newLinjat);
     setLinjat(newLinjat);
+    linjatCopy = JSON.parse(JSON.stringify(linjat));
   }
 
   const onCheckAll = () => {
@@ -50,6 +51,7 @@ function App() {
       return linja;
     });
     setLinjat(newLinjat);
+    linjatCopy = JSON.parse(JSON.stringify(linjat));
   }
 
   const onUncheckAll = () => {
@@ -58,11 +60,28 @@ function App() {
       return linja;
     });
     setLinjat(newLinjat);
+    linjatCopy = JSON.parse(JSON.stringify(linjat));
+  }
+
+  const onHover = (name) => {
+    const newLinjat = linjat.map((linja) => {
+      if (linja.name === name) {
+        linja.show = true;
+      } else {
+        linja.show = false;
+      }
+      return linja;
+    });
+    setLinjat(newLinjat);
+  }
+
+  const onLeave = () => {
+    setLinjat(JSON.parse(JSON.stringify(linjatCopy)));
   }
 
   return (
     <div className="App">
-      <Map linjat={linjat} />
+      <Map linjat={linjat} onHover={onHover} onLeave={onLeave} />
       <Legend linjat={linjat} onChange={onChange} onCheckAll={onCheckAll} onUncheckAll={onUncheckAll} />
     </div>
   );
