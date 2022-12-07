@@ -28,11 +28,6 @@ export const Map = ({ linjat, onHover, onLeave }) => {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
       />
-      <Marker position={[41.341826913336725, 19.865019321441654]}>
-        <Popup>
-          Home
-        </Popup>
-      </Marker>
       {
         linjat.map((linja) => {
           return (
