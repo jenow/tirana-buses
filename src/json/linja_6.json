@@ -1,0 +1,1824 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Laprakë-Qendër",
+        "name": "Linja 6"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            19.806105,
+            41.334242
+          ],
+          [
+            19.806094,
+            41.334267
+          ],
+          [
+            19.804746,
+            41.336351
+          ],
+          [
+            19.802344,
+            41.34002
+          ],
+          [
+            19.801757,
+            41.340897
+          ],
+          [
+            19.80143,
+            41.341394
+          ],
+          [
+            19.80123,
+            41.34171
+          ],
+          [
+            19.800874,
+            41.342245
+          ],
+          [
+            19.800727,
+            41.342441
+          ],
+          [
+            19.800636,
+            41.342541
+          ],
+          [
+            19.800587,
+            41.34256
+          ],
+          [
+            19.800511,
+            41.342585
+          ],
+          [
+            19.800436,
+            41.342599
+          ],
+          [
+            19.80031,
+            41.342617
+          ],
+          [
+            19.800192,
+            41.342623
+          ],
+          [
+            19.800076,
+            41.342611
+          ],
+          [
+            19.799968,
+            41.342591
+          ],
+          [
+            19.798312,
+            41.342237
+          ],
+          [
+            19.797582,
+            41.342072
+          ],
+          [
+            19.797417,
+            41.342029
+          ],
+          [
+            19.797135,
+            41.341931
+          ],
+          [
+            19.796912,
+            41.341828
+          ],
+          [
+            19.7967,
+            41.341759
+          ],
+          [
+            19.796502,
+            41.341716
+          ],
+          [
+            19.79622,
+            41.341656
+          ],
+          [
+            19.796077,
+            41.341637
+          ],
+          [
+            19.795929,
+            41.341637
+          ],
+          [
+            19.795599,
+            41.341663
+          ],
+          [
+            19.794809,
+            41.341756
+          ],
+          [
+            19.794594,
+            41.340711
+          ],
+          [
+            19.794503,
+            41.340177
+          ],
+          [
+            19.794461,
+            41.340062
+          ],
+          [
+            19.794451,
+            41.340041
+          ],
+          [
+            19.794382,
+            41.339917
+          ],
+          [
+            19.794259,
+            41.33971
+          ],
+          [
+            19.793782,
+            41.338924
+          ],
+          [
+            19.793397,
+            41.338287
+          ],
+          [
+            19.79288,
+            41.338434
+          ],
+          [
+            19.792559,
+            41.338541
+          ],
+          [
+            19.791003,
+            41.339417
+          ],
+          [
+            19.790836,
+            41.339505
+          ],
+          [
+            19.790671,
+            41.339596
+          ],
+          [
+            19.788293,
+            41.341034
+          ],
+          [
+            19.788576,
+            41.341328
+          ],
+          [
+            19.788856,
+            41.341619
+          ],
+          [
+            19.788904,
+            41.341666
+          ],
+          [
+            19.788944,
+            41.341718
+          ],
+          [
+            19.788965,
+            41.341755
+          ],
+          [
+            19.788977,
+            41.341818
+          ],
+          [
+            19.788983,
+            41.34189
+          ],
+          [
+            19.788965,
+            41.341981
+          ],
+          [
+            19.788907,
+            41.34212
+          ],
+          [
+            19.787776,
+            41.344374
+          ],
+          [
+            19.787766,
+            41.344435
+          ],
+          [
+            19.78775,
+            41.344514
+          ],
+          [
+            19.787727,
+            41.344559
+          ],
+          [
+            19.787699,
+            41.344598
+          ],
+          [
+            19.787572,
+            41.344767
+          ],
+          [
+            19.787431,
+            41.344992
+          ],
+          [
+            19.787232,
+            41.345259
+          ],
+          [
+            19.78709,
+            41.345442
+          ],
+          [
+            19.787057,
+            41.345464
+          ],
+          [
+            19.787013,
+            41.345477
+          ],
+          [
+            19.786934,
+            41.34548
+          ],
+          [
+            19.786037,
+            41.345413
+          ],
+          [
+            19.785191,
+            41.345341
+          ],
+          [
+            19.784337,
+            41.345267
+          ],
+          [
+            19.784165,
+            41.345253
+          ],
+          [
+            19.784081,
+            41.345251
+          ],
+          [
+            19.784029,
+            41.345255
+          ],
+          [
+            19.783986,
+            41.345275
+          ],
+          [
+            19.783968,
+            41.345297
+          ],
+          [
+            19.783964,
+            41.345307
+          ],
+          [
+            19.783634,
+            41.346572
+          ],
+          [
+            19.783632,
+            41.34658
+          ],
+          [
+            19.783628,
+            41.346587
+          ],
+          [
+            19.783623,
+            41.346594
+          ],
+          [
+            19.783617,
+            41.3466
+          ],
+          [
+            19.783609,
+            41.346606
+          ],
+          [
+            19.7836,
+            41.34661
+          ],
+          [
+            19.78359,
+            41.346613
+          ],
+          [
+            19.78358,
+            41.346614
+          ],
+          [
+            19.78357,
+            41.346615
+          ],
+          [
+            19.782936,
+            41.346628
+          ],
+          [
+            19.782842,
+            41.346638
+          ],
+          [
+            19.782718,
+            41.34666
+          ],
+          [
+            19.782427,
+            41.346741
+          ],
+          [
+            19.782243,
+            41.346803
+          ],
+          [
+            19.781901,
+            41.346958
+          ],
+          [
+            19.781706,
+            41.347055
+          ],
+          [
+            19.781539,
+            41.347169
+          ],
+          [
+            19.781225,
+            41.347409
+          ],
+          [
+            19.781033,
+            41.347539
+          ],
+          [
+            19.780694,
+            41.347774
+          ],
+          [
+            19.780171,
+            41.34816
+          ],
+          [
+            19.779957,
+            41.348321
+          ],
+          [
+            19.779792,
+            41.348464
+          ],
+          [
+            19.779515,
+            41.348753
+          ],
+          [
+            19.779362,
+            41.348942
+          ],
+          [
+            19.778833,
+            41.349611
+          ],
+          [
+            19.778796,
+            41.349667
+          ],
+          [
+            19.778752,
+            41.349719
+          ],
+          [
+            19.778703,
+            41.349769
+          ],
+          [
+            19.778648,
+            41.349815
+          ],
+          [
+            19.778588,
+            41.349858
+          ],
+          [
+            19.778523,
+            41.349896
+          ],
+          [
+            19.778356,
+            41.349997
+          ],
+          [
+            19.778074,
+            41.350147
+          ],
+          [
+            19.777955,
+            41.350204
+          ],
+          [
+            19.77785,
+            41.350244
+          ],
+          [
+            19.777614,
+            41.350316
+          ],
+          [
+            19.777217,
+            41.350429
+          ],
+          [
+            19.776864,
+            41.350545
+          ],
+          [
+            19.775321,
+            41.351061
+          ],
+          [
+            19.774961,
+            41.351171
+          ],
+          [
+            19.774818,
+            41.351204
+          ],
+          [
+            19.774723,
+            41.351222
+          ],
+          [
+            19.774501,
+            41.351251
+          ],
+          [
+            19.77417,
+            41.351273
+          ],
+          [
+            19.773882,
+            41.351275
+          ],
+          [
+            19.773576,
+            41.35126
+          ],
+          [
+            19.773316,
+            41.351232
+          ],
+          [
+            19.773113,
+            41.351206
+          ],
+          [
+            19.772838,
+            41.351172
+          ],
+          [
+            19.772729,
+            41.351176
+          ],
+          [
+            19.772694,
+            41.351192
+          ],
+          [
+            19.772655,
+            41.351223
+          ],
+          [
+            19.77266,
+            41.351228
+          ],
+          [
+            19.772664,
+            41.351234
+          ],
+          [
+            19.772667,
+            41.35124
+          ],
+          [
+            19.772668,
+            41.351247
+          ],
+          [
+            19.772668,
+            41.351253
+          ],
+          [
+            19.772666,
+            41.35126
+          ],
+          [
+            19.772663,
+            41.351266
+          ],
+          [
+            19.772658,
+            41.351272
+          ],
+          [
+            19.772652,
+            41.351277
+          ],
+          [
+            19.772645,
+            41.351281
+          ],
+          [
+            19.772637,
+            41.351284
+          ],
+          [
+            19.772629,
+            41.351286
+          ],
+          [
+            19.77262,
+            41.351287
+          ],
+          [
+            19.772611,
+            41.351287
+          ],
+          [
+            19.772603,
+            41.351286
+          ],
+          [
+            19.772594,
+            41.351284
+          ],
+          [
+            19.772587,
+            41.35128
+          ],
+          [
+            19.77258,
+            41.351276
+          ],
+          [
+            19.772574,
+            41.351271
+          ],
+          [
+            19.77257,
+            41.351265
+          ],
+          [
+            19.772567,
+            41.351259
+          ],
+          [
+            19.772565,
+            41.351252
+          ],
+          [
+            19.772565,
+            41.351246
+          ],
+          [
+            19.772567,
+            41.351239
+          ],
+          [
+            19.77257,
+            41.351233
+          ],
+          [
+            19.772574,
+            41.351227
+          ],
+          [
+            19.772579,
+            41.351222
+          ],
+          [
+            19.772586,
+            41.351217
+          ],
+          [
+            19.772594,
+            41.351214
+          ],
+          [
+            19.772602,
+            41.351211
+          ],
+          [
+            19.772611,
+            41.35121
+          ],
+          [
+            19.772619,
+            41.35121
+          ],
+          [
+            19.772628,
+            41.351211
+          ],
+          [
+            19.772637,
+            41.351213
+          ],
+          [
+            19.772645,
+            41.351216
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Laprakë-Qendër",
+        "name": "Linja 6"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            19.816406,
+            41.335905
+          ],
+          [
+            19.816405,
+            41.335904
+          ],
+          [
+            19.814208,
+            41.335562
+          ],
+          [
+            19.812655,
+            41.335311
+          ],
+          [
+            19.81176,
+            41.335174
+          ],
+          [
+            19.811116,
+            41.335063
+          ],
+          [
+            19.810232,
+            41.33491
+          ],
+          [
+            19.809426,
+            41.334783
+          ],
+          [
+            19.807838,
+            41.334516
+          ],
+          [
+            19.807016,
+            41.334388
+          ],
+          [
+            19.806737,
+            41.334333
+          ],
+          [
+            19.806612,
+            41.334311
+          ],
+          [
+            19.806489,
+            41.334283
+          ],
+          [
+            19.806369,
+            41.334249
+          ],
+          [
+            19.806252,
+            41.334208
+          ],
+          [
+            19.80614,
+            41.33416
+          ],
+          [
+            19.806105,
+            41.334242
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Laprakë-Qendër",
+        "name": "Linja 6"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            19.816406,
+            41.335905
+          ],
+          [
+            19.816386,
+            41.335964
+          ],
+          [
+            19.816085,
+            41.33592
+          ],
+          [
+            19.815553,
+            41.335843
+          ],
+          [
+            19.815008,
+            41.335758
+          ],
+          [
+            19.814282,
+            41.335639
+          ],
+          [
+            19.813248,
+            41.335469
+          ],
+          [
+            19.812133,
+            41.335299
+          ],
+          [
+            19.811217,
+            41.335146
+          ],
+          [
+            19.811172,
+            41.335139
+          ],
+          [
+            19.810031,
+            41.334951
+          ],
+          [
+            19.808931,
+            41.334762
+          ],
+          [
+            19.807792,
+            41.33459
+          ],
+          [
+            19.806682,
+            41.334397
+          ],
+          [
+            19.806535,
+            41.334366
+          ],
+          [
+            19.806389,
+            41.33433
+          ],
+          [
+            19.806246,
+            41.334289
+          ],
+          [
+            19.806105,
+            41.334242
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Laprakë-Qendër",
+        "name": "Linja 6"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            19.816406,
+            41.335905
+          ],
+          [
+            19.816937,
+            41.335987
+          ],
+          [
+            19.817578,
+            41.336123
+          ],
+          [
+            19.81933,
+            41.333138
+          ],
+          [
+            19.820263,
+            41.331541
+          ],
+          [
+            19.82069,
+            41.330729
+          ],
+          [
+            19.820592,
+            41.33062
+          ],
+          [
+            19.820313,
+            41.330607
+          ],
+          [
+            19.819896,
+            41.330586
+          ],
+          [
+            19.819317,
+            41.3305
+          ],
+          [
+            19.819045,
+            41.330459
+          ],
+          [
+            19.818785,
+            41.330429
+          ],
+          [
+            19.818352,
+            41.330359
+          ],
+          [
+            19.817961,
+            41.330308
+          ],
+          [
+            19.817302,
+            41.332635
+          ],
+          [
+            19.81705,
+            41.333524
+          ],
+          [
+            19.81696,
+            41.333844
+          ],
+          [
+            19.816839,
+            41.334289
+          ],
+          [
+            19.816751,
+            41.334601
+          ],
+          [
+            19.816462,
+            41.335714
+          ],
+          [
+            19.816406,
+            41.335905
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Blv Zogu I",
+        "EMERTIMI": "Blv. “Zogu I”, pranë Martenitetit “Mbretëresha Geraldinë",
+        "STACIONI": "MBRETERESHA GERALDINA",
+        "Linja2": "2",
+        "Linja3": "9A",
+        "Linja4": "6",
+        "Linja5": "13",
+        "Linja6": "12A",
+        "Linja7": "12B",
+        "Linja8": "1B",
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "1A",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "MBRETERESHA GERALDINA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.816814,
+          41.33472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Urani Pano",
+        "EMERTIMI": "ne rrugen \"Urani Pano\"",
+        "STACIONI": "15 KATESHI",
+        "Linja2": "2",
+        "Linja3": "6",
+        "Linja4": "10A",
+        "Linja5": "12A",
+        "Linja6": "13",
+        "Linja7": "15",
+        "Linja8": "1B",
+        "Linja9": "9A",
+        "Linja10": "9B",
+        "Linja_1": "1A",
+        "Linja11_1": "3A",
+        "Linja12": "3B",
+        "Linja13": "5B",
+        "Linja14": "12B",
+        "name": "15 KATESHI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.818854,
+          41.330526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Asim Vokshi",
+        "EMERTIMI": "Rruga “Asim Vokshi”, tek shkolla Harry Fultz",
+        "STACIONI": "HARRY FULTZ",
+        "Linja2": "6",
+        "Linja3": "13",
+        "Linja4": "16b",
+        "Linja5": null,
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "14",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "HARRY FULTZ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.811102,
+          41.335191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Blv. “Zogu I”",
+        "EMERTIMI": "Pas kryqëzimit të Blv. “Zogu I” me Rrugën “Reshit Petrela” (Fillimi i linjës).",
+        "STACIONI": "ISH-STACIONI TRENIT",
+        "Linja2": "6",
+        "Linja3": "13",
+        "Linja4": "16b",
+        "Linja5": "9A",
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "14",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "ISH-STACIONI TRENIT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.814766,
+          41.335783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Asim Vokshi",
+        "EMERTIMI": "Rruga  “Asim Vokshi”, përpara kryqëzimit me Rrugën “Don Bosko”",
+        "STACIONI": "DON BOSKO",
+        "Linja2": "6",
+        "Linja3": "13",
+        "Linja4": "16b",
+        "Linja5": null,
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "14",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "DON BOSKO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.807838,
+          41.334622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Asim Vokshi",
+        "EMERTIMI": "Rruga  “Asim Vokshi”, përballë shkollës Harry Fultz",
+        "STACIONI": "HARRY FULTZ",
+        "Linja2": "6",
+        "Linja3": "13",
+        "Linja4": "16b",
+        "Linja5": null,
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "14",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "HARRY FULTZ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.811704,
+          41.335131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Asim Vokshi",
+        "EMERTIMI": "Rruga  “Asim Vokshi”, pas kryqëzimit me Rrugën “Don Bosko”",
+        "STACIONI": "DON BOSKO",
+        "Linja2": "6",
+        "Linja3": "13",
+        "Linja4": "16b",
+        "Linja5": null,
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "14",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "DON BOSKO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.807703,
+          41.334466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Don Bosko",
+        "EMERTIMI": "Në Rrugën “Don Bosko”, përball televizionit “Vizion Plus”",
+        "STACIONI": "VIZION PLUS",
+        "Linja2": null,
+        "Linja3": null,
+        "Linja4": null,
+        "Linja5": null,
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "6",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "VIZION PLUS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.804268,
+          41.337204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Don Bosko",
+        "EMERTIMI": "Në Rrugën “Don Bosko”, tek televizioni “Vizion Plus”",
+        "STACIONI": "VIZION PLUS",
+        "Linja2": null,
+        "Linja3": null,
+        "Linja4": null,
+        "Linja5": null,
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "6",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "VIZION PLUS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.803842,
+          41.337612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Lord Bajron",
+        "EMERTIMI": "Në  Rrugën “Lord Bajron”, përballë Spitalit Ushtarak",
+        "STACIONI": "SPITALI USHTARAK",
+        "Linja2": null,
+        "Linja3": null,
+        "Linja4": null,
+        "Linja5": null,
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "6",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "SPITALI USHTARAK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.795037,
+          41.341775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Lord Bajron",
+        "EMERTIMI": "Në kryqëzimin e Rrugës “Lord Bajron” me Rrugën “Gjergj Legisi”",
+        "STACIONI": "LAPRAKE QENDER",
+        "Linja2": null,
+        "Linja3": null,
+        "Linja4": null,
+        "Linja5": null,
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "6",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "LAPRAKE QENDER"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.79326,
+          41.338369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Lord Bajron",
+        "EMERTIMI": "Në kryqëzimin e Rrugës “Lord Bajron” me Rrugën “Gjergj Legisi”.",
+        "STACIONI": "LAPRAKE QENDER",
+        "Linja2": null,
+        "Linja3": null,
+        "Linja4": null,
+        "Linja5": null,
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "6",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "LAPRAKE QENDER"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.793164,
+          41.338324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Migjeni",
+        "EMERTIMI": "Në fillimin e Rrugës “Migjeni”.",
+        "STACIONI": "RR. ISUF UKA",
+        "Linja2": null,
+        "Linja3": null,
+        "Linja4": null,
+        "Linja5": null,
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "6",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "RR. ISUF UKA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.779689,
+          41.348649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Petrit Radovicka",
+        "EMERTIMI": "Në Rrugën “Petrit Radovicka”, kryqëzimi me Rugën “Albanet” dhe Rrugën “Isuf Uka\"",
+        "STACIONI": "RR. ISUF UKA",
+        "Linja2": null,
+        "Linja3": null,
+        "Linja4": null,
+        "Linja5": null,
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "6",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "RR. ISUF UKA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.779395,
+          41.348778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Vangjel Noti",
+        "EMERTIMI": "Në afërsi të kryqëzimit të Rrugës “Vangjel Noti” me Rrugën “Gjergj Legisi",
+        "STACIONI": "TELEKOM",
+        "Linja2": null,
+        "Linja3": null,
+        "Linja4": null,
+        "Linja5": null,
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "6",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "TELEKOM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.788506,
+          41.341169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Petrit Radovicka",
+        "EMERTIMI": "Në Rrugën “Petrit Radovicka”, kryqëzimi me Rugën “Albanet” dhe Rrugën “Isuf Uka\"",
+        "STACIONI": "SHK. GJERGJ FISHTA",
+        "Linja2": null,
+        "Linja3": null,
+        "Linja4": null,
+        "Linja5": null,
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "6",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "SHK. GJERGJ FISHTA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.772624,
+          41.351273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Rr. Barrikadave",
+        "EMERTIMI": "Perpara  kryqëzimit të Rrugës “Barrikadave” me Rrugën “Reshit Petrela”.",
+        "STACIONI": "RR. BARRIKADAVE",
+        "Linja2": null,
+        "Linja3": null,
+        "Linja4": null,
+        "Linja5": null,
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "6",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "RR. BARRIKADAVE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.817847,
+          41.335664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Lord Bajron",
+        "EMERTIMI": "Në kryqëzimin e Rrugës “Lord Bajron” me Rrugën “Gjergj Legisi”",
+        "STACIONI": "SHK.ALEKS BUDA",
+        "Linja2": null,
+        "Linja3": null,
+        "Linja4": null,
+        "Linja5": null,
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "6",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "SHK.ALEKS BUDA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.789672,
+          41.3402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Lord Bajron",
+        "EMERTIMI": "Në kryqëzimin e Rrugës “Lord Bajron” me Rrugën “Gjergj Legisi”",
+        "STACIONI": "SHK.ALEKS BUDA",
+        "Linja2": null,
+        "Linja3": null,
+        "Linja4": null,
+        "Linja5": null,
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "6",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "SHK.ALEKS BUDA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.789754,
+          41.340211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Don Bosko",
+        "EMERTIMI": "Në Rrugën “Don Bosko”, tek shkolla “Don Bosko”.",
+        "STACIONI": "SHK.DON BOSKO",
+        "Linja2": null,
+        "Linja3": null,
+        "Linja4": null,
+        "Linja5": null,
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "6",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "SHK.DON BOSKO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.803101,
+          41.338666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Don Bosko",
+        "EMERTIMI": "Në Rrugën “Don Bosko”, tek shkolla “Don Bosko”.",
+        "STACIONI": "SHK.DON BOSKO",
+        "Linja2": null,
+        "Linja3": null,
+        "Linja4": null,
+        "Linja5": null,
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "6",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "SHK.DON BOSKO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.802983,
+          41.339108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Don Bosko",
+        "EMERTIMI": "Në Rrugën “Don Bosko”, përball  Parkut të Transportit Urban të Udhëtarëve. Stacioni",
+        "STACIONI": "PTUU",
+        "Linja2": null,
+        "Linja3": null,
+        "Linja4": null,
+        "Linja5": null,
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "6",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "PTUU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.801145,
+          41.341705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Don Bosko",
+        "EMERTIMI": "Në Rrugën “Don Bosko”, pranë  Parkut të Transportit Urban të Udhëtarëve.",
+        "STACIONI": "PTUU",
+        "Linja2": null,
+        "Linja3": null,
+        "Linja4": null,
+        "Linja5": null,
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "6",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "PTUU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.801184,
+          41.341863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Don Bosko",
+        "EMERTIMI": "Në Rrugën “Don Bosko”, tek Gjykata Administrative",
+        "STACIONI": "GJYKATA ADMINISTRATIVE",
+        "Linja2": null,
+        "Linja3": null,
+        "Linja4": null,
+        "Linja5": null,
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "6",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "GJYKATA ADMINISTRATIVE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.798606,
+          41.342245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Don Bosko",
+        "EMERTIMI": "Në Rrugën “Don Bosko”, në afërsi të Gjykatës Administrative",
+        "STACIONI": "GJYKATA ADMINISTRATIVE",
+        "Linja2": null,
+        "Linja3": null,
+        "Linja4": null,
+        "Linja5": null,
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "6",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "GJYKATA ADMINISTRATIVE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.798497,
+          41.342321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Vangjel Noti",
+        "EMERTIMI": "Në Kryqëzimin e Rrugës “Vangjel Noti” me Rrugën “Iliria”, tek shinat e trenit.",
+        "STACIONI": "SHINAT E TRENIT",
+        "Linja2": null,
+        "Linja3": null,
+        "Linja4": null,
+        "Linja5": null,
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "6",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "SHINAT E TRENIT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.78767,
+          41.344487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Petrit Radovica",
+        "EMERTIMI": "Ne kryqëzimin e Rrugës “Vangjel Noti”me Rrugën “Buna”, tek shinat e trenit.",
+        "STACIONI": "SHINAT E TRENIT",
+        "Linja2": null,
+        "Linja3": null,
+        "Linja4": null,
+        "Linja5": null,
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "6",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "SHINAT E TRENIT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.78768,
+          41.3447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Petrit Radovica",
+        "EMERTIMI": "Në kryqëzimin e Rrugës “Petrit Radovicka” me Rrugën “Mark Bajraktari”.",
+        "STACIONI": "RR. MARK BAJRAKTARI",
+        "Linja2": null,
+        "Linja3": null,
+        "Linja4": null,
+        "Linja5": null,
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "6",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "RR. MARK BAJRAKTARI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.782419,
+          41.34671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "RRUGA": "Migjeni",
+        "EMERTIMI": "Në Rrugën “Petrit Radovicka”, kryqëzimi me Rugën “Albanet” dhe Rrugën “Isuf Uka”",
+        "STACIONI": "RR. MARK BAJRAKTARI",
+        "Linja2": null,
+        "Linja3": null,
+        "Linja4": null,
+        "Linja5": null,
+        "Linja6": null,
+        "Linja7": null,
+        "Linja8": null,
+        "Linja9": null,
+        "Linja10": null,
+        "Linja_1": "6",
+        "Linja11_1": null,
+        "Linja12": null,
+        "Linja13": null,
+        "Linja14": null,
+        "name": "RR. MARK BAJRAKTARI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.782108,
+          41.346864
+        ]
+      }
+    }
+  ]
+}

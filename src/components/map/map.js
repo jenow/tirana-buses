@@ -28,7 +28,7 @@ export const Map = ({linjat}) => {
       {
         linjat.map((linja) => {
           return (
-            <GeoJSON key={linja.color} data={linja.linja} style={{ color: linja.color }} onEachFeature={onStationClicked} />
+            <GeoJSON key={linja.name} data={linja.linja} style={{ color: linja.color }} onEachFeature={onStationClicked} />
           );
         })
       }
