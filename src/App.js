@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
 import { Legend } from './components/legend/legend';
 import { Map } from './components/map/map';
@@ -15,6 +15,8 @@ L.Icon.Default.mergeOptions({
 });
 
 function App() {
+  const [currentLocation, setCurrentLocation] = useState(null);
+
   const [linjat, setLinjat] = useState([
     { name: 'Linja 1', linja: linja1, color: 'black', show: true },
     { name: 'Linja 2', linja: linja2, color: 'darkblue', show: true },
@@ -79,9 +81,21 @@ function App() {
     setLinjat(JSON.parse(JSON.stringify(linjatCopy)));
   }
 
+  useEffect(() => {
+    navigator.geolocation.getCurrentPosition((location) => {
+      setCurrentLocation([location.coords.latitude, location.coords.longitude]);
+    });
+    setInterval(
+      () => {
+        navigator.geolocation.getCurrentPosition((location) => {
+          setCurrentLocation([location.coords.latitude, location.coords.longitude]);
+        });
+      }, 5000);
+  }, []);
+
   return (
     <div className="App">
-      <Map linjat={linjat} onHover={onHover} onLeave={onLeave} />
+      <Map linjat={linjat} onHover={onHover} onLeave={onLeave} currentLocation={currentLocation} />
       <Legend linjat={linjat} onChange={onChange} onCheckAll={onCheckAll} onUncheckAll={onUncheckAll} />
     </div>
   );
