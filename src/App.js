@@ -18,21 +18,21 @@ function App() {
   const [currentLocation, setCurrentLocation] = useState(null);
 
   const [linjat, setLinjat] = useState([
-    { name: 'Linja 1', linja: linja1, color: 'black', show: true },
-    { name: 'Linja 2', linja: linja2, color: 'darkblue', show: true },
-    { name: 'Linja 3', linja: linja3, color: 'darkgreen', show: true },
-    { name: 'Linja 4', linja: linja4, color: 'darkcyan', show: true },
-    { name: 'Linja 5/A', linja: linja5, color: 'darkred', show: true },
-    { name: 'Linja 6', linja: linja6, color: 'darkmagenta', show: true },
-    { name: 'Linja 7', linja: linja7, color: 'yellow', show: true },
-    { name: 'Linja 8', linja: linja8, color: 'gray', show: true },
-    { name: 'Linja 9', linja: linja9, color: 'lightgrey', show: true },
-    { name: 'Linja 10', linja: linja10, color: 'darkgrey', show: true },
-    { name: 'Linja 11', linja: linja11, color: 'blue', show: true },
-    { name: 'Linja 12', linja: linja12, color: 'green', show: true },
-    { name: 'Linja 13', linja: linja13, color: 'cyan', show: true },
-    { name: 'Linja 14', linja: linja14, color: 'red', show: true },
-    { name: 'Linja 15', linja: linja15, color: 'magenta', show: true }
+    { name: 'Linja 1', linja: linja1, color: '#14532d', show: true },
+    { name: 'Linja 2', linja: linja2, color: '#164e63', show: true },
+    { name: 'Linja 3', linja: linja3, color: '#1e3a8a', show: true },
+    { name: 'Linja 4', linja: linja4, color: '#581c87', show: true },
+    { name: 'Linja 5/A', linja: linja5, color: '#701a75', show: true },
+    { name: 'Linja 6', linja: linja6, color: '#9f1239', show: true },
+    { name: 'Linja 7', linja: linja7, color: '#ec4899', show: true },
+    { name: 'Linja 8', linja: linja8, color: '#d946ef', show: true },
+    { name: 'Linja 9', linja: linja9, color: '#8b5cf6', show: true },
+    { name: 'Linja 10', linja: linja10, color: '#3b82f6', show: true },
+    { name: 'Linja 11', linja: linja11, color: '#06b6d4', show: true },
+    { name: 'Linja 12', linja: linja12, color: '#14b8a6', show: true },
+    { name: 'Linja 13', linja: linja13, color: '#22c55e', show: true },
+    { name: 'Linja 14', linja: linja14, color: '#84cc16', show: true },
+    { name: 'Linja 15', linja: linja15, color: '#eab308', show: true }
   ]);
   let linjatCopy = JSON.parse(JSON.stringify(linjat));
 
