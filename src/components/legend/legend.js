@@ -1,22 +1,22 @@
 import './legend.css';
+import { useState } from 'react';
 
 export const Legend = ({ linjat, onChange, onCheckAll, onUncheckAll }) => {
+
   return (
-    <div>
+    <div className="legend-container">
       <div className="legend-header">
-        <input type="button" value="Check all" onClick={onCheckAll} />
-      </div>
-      <div className="legend-header">
-        <input type="button" value="Uncheck all" onClick={onUncheckAll} />
+        <button type='button' onClick={onCheckAll}>Show all</button>
+        <button type="button" onClick={onUncheckAll}>Hide all</button>
       </div>
       <div className="legend">
         {linjat.map((linja) => {
           return (
-            <div className="legend-item" key={linja.name}>
+            <label className="legend-item" key={linja.name}>
               <input className="legend-item-checkbox" type="checkbox" checked={linja.show} onChange={(e) => onChange(linja.name, e.target.checked)} />
               <div className="legend-item-color" style={{ backgroundColor: linja.color }} />
               <div className="legend-item-text">{linja.name}</div>
-            </div>
+            </label>
           );
         })
         }

@@ -41,7 +41,7 @@ export const Map = ({ linjat, onHover, onLeave, currentLocation }) => {
   const drawPointMarker = (linja) => (geoJsonPoint, latlng) => {
     return L.marker(latlng, {
       icon: L.divIcon({
-        html: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="${linja.color}" d="M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7m0"/><ellipse fill="#FFFFFFBB" cx="12.072" cy="9.195" rx="3" ry="3"/></svg>`,
+        html: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="${linja.color}" d="M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7m0 14Z"/><ellipse fill="#FFFFFFBB" cx="12.072" cy="9.195" rx="3" ry="3"/></svg>`,
         className: 'icon-location',
         iconSize: [32, 32],
         iconAnchor: [16, 32],
@@ -58,8 +58,9 @@ export const Map = ({ linjat, onHover, onLeave, currentLocation }) => {
       zoom={15}
     >
       <TileLayer
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+        url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
+        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+        subdomains={'abcd'}
       />
       {
         linjat.map((linja) => {

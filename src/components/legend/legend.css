@@ -1,24 +1,62 @@
-.legend {
-  top: 0;
-  right: 0;
-  width: 200px;
+.legend-container {
+  width: 350px;
   height: 100%;
   background: #fff;
   border-left: 1px solid #ccc;
-  padding: 10px;
-  box-sizing: border-box;
+}
+
+.legend {
+  overflow-y: auto;
+  max-height: calc(100vh - 51px);
 }
 
 .legend-header {
   display: flex;
-  justify-content: center;
-  margin-top: 10px;
+  align-items: center;  
+  gap: 0.5rem;
+  width: 100%;
+  padding: 10px;
 }
 
+@media (max-width: 768px) {
+  .legend-container {
+    display: none;
+  }
+  .mobile-menu-open .legend-container {
+    display: block;
+    min-width: 60vw;
+  }
+}
+@media (max-width: 1024px) {
+  .legend-container {
+    width: 300px;
+  }
+}
+
+
+.legend-header button {
+  background: #cbd5e1;
+  color: #334155;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  border-radius: 0.25rem;
+  width: 100%;
+}
+.legend-header button:hover {
+  background: #94a3b8;
+  color: #1f2937;
+}
 .legend-item {
   display: flex;
   align-items: center;
   margin-bottom: 5px;
+  cursor: pointer;
+  padding: 0.4rem 0.2rem;
+}
+.legend-item:hover {  
+  background: #f1f5f9;
 }
 
 .legend-item-checkbox {
